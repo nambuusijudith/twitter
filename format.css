@@ -1,0 +1,104 @@
+
+.main-div{
+display:flex;
+}
+.first-div{  
+    
+    background-image: url(twitter.jpg);
+    height:100vh;
+    background-size: 3500px;
+    background-position: center;
+    flex-basis: 50%;
+
+}
+.prep{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+second-div{
+    flex-basis: 50%;
+    align-items: center;
+    
+}
+.pop{
+    position:absolute;
+    left: 60%;
+    top: 10%;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.beb{
+    width: 10px;
+    height: 10px;
+}
+.hai{
+    width:10px;
+    height: 10px;
+}
+.hey{
+    width: 10px;
+    height: 10px;
+}
+.dd{
+    width: 250px;
+    height:50px ;
+    border-radius: 25px;
+    background-color:blue;
+    border:blue solid 5px;
+    color: white;
+
+}
+.mm{
+    width: 250px;
+    height:50px ;
+    border-radius: 25px;
+    border:blue solid 5px;
+border-spacing: 10px;
+}
+#git{
+    width: 150px;
+    height: 40px;
+}
+.log{
+    color: light blue;
+    background-color: white;
+    border: #086bee solid 4px;
+    width: 80px;
+    height: 30px;
+    margin: 3px;
+    border-radius: 30px;
+   
+}
+.level
+{
+display: flex;
+list-style-type: none;
+/* justify-content: center; */
+background-color: rgba(241, 246, 248, 0.801);
+background-size: 30px;
+color: rgb(21, 22, 22);
+padding: 20px;
+}
+.level li {
+    padding-right: 20px;
+}
+.level a{
+    color: black;
+    text-decoration: none;
+}
+.level a:hover{
+    color: rgb(212, 22, 22);
+    font-size: small;
+}
+.font{
+    display: flex;
+    background-color: rgb(15, 17, 17);
+    color: rgb(14, 13, 13);
+    list-style: none;
+}
+.font li {
+padding: 20px;
+}
